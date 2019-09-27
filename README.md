@@ -98,11 +98,11 @@ In `custom_errors.rb`, we have the following code:
 ```ruby
 class Person
   attr_accessor :name, :partner
-  
+
   def initialize(name)
     @name = name
   end
-  
+
   def get_married(person)
     self.partner = person
     person.partner = self
